@@ -1,0 +1,219 @@
+
+:root {
+    
+    --primary-color:#B45309;
+      --dark-green:#059669;
+  }
+  
+  @media (max-width: 75em) {
+    html {
+      font-size: 60%;
+    }
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+  
+  body{
+      font-family: cursive;
+      
+      margin-left: 0;
+      margin-right: 0;
+    
+    
+  }
+  
+  
+  
+  
+  .container-center{
+   max-width: 600px;
+   margin: auto;
+  
+  }
+  /**links**/
+  .link{
+      text-decoration: none;
+      padding: 0.5em 1rem;
+  }
+  .link-primary{
+       background-color: var(--primary-color);
+       border-radius: 1rem;
+       color: yellowgreen;
+  }
+  .link-secondary{
+      color: whi;
+      border-radius: 0.5rem;
+      border: 1px solid var(--primary-color);
+      background-color: #BE185D;
+  }
+  /**Lists**/
+  .list-non-bullet{
+  
+      list-style: none;
+  }
+  .list-item-inline{
+      display: inline;
+      padding: 0rem 0.5rem;
+    
+  }
+  .nav-pills a:hover{
+    background: darkorange;
+  }
+  /**Navigation**/
+  .navigation{
+      display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:blueviolet;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+  
+  }
+  .navigation .nav-pills{
+      text-align: right;
+    
+  }
+  .navigation .link{
+  
+      color:white;
+    
+  }
+
+  /**heading**/
+  .welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 80vh;
+    background-color:skyblue;
+   
+  }
+  #header{
+    text-align:center;
+    font-size:2rem;
+    color:#be3144;
+    
+  }
+  
+  .welcome-section > p {
+    font-size: 4rem;
+    font-weight: 200;
+    font-style: italic;
+    font-weight:bold;
+    color:white;
+  }
+  
+    /**section**/
+  
+  .section{
+      padding: 2rem;
+      text-size-adjust: 3rem;
+  }
+  .blog{
+      background-color: green;
+      padding:1rem;
+      border: radius 1px;
+      color:white;
+  }
+  .section h1{
+      text-align: center;
+  
+  }
+  .owww{
+      background-color:palegreen;
+  }
+  .oww{
+      background-color: wheat;
+  }
+  .ow{
+      background-color: darkkhaki;
+  }
+  .footer{
+   
+      background-color: var(--dark-green);
+     
+     padding: 1rem 0rem;
+     
+  }
+  .footer ul{
+      text-align: center;
+    
+  
+  }
+  .footer-header{
+  
+      text-align: center;
+      font-weight:normal;
+      
+    
+    color:yellow;
+  }
+  .social{
+   
+    
+    transition: transform 0.3s ease-out;
+  }
+  .social:hover {
+    transform: translateY(8px);
+  }
+  
+  .price-container{
+    display: flex;
+   flex-direction: row;
+
+   justify-content: center;
+   text-align: center;
+   
+   
+ }
+ .price-card{
+   display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     width: 100%;
+     
+     margin: 11px;
+     border: 7px solid darkkhaki;
+     border-radius: 9px;
+ }
+
+ 
+   
+
+ .price-card-header{
+   font-size: 23px;
+     text-align: center;
+     
+ }
+
+ .price-btn{
+   padding: 13px;
+     width: 97px;
+    
+     display:bottom;
+     flex-direction: bottom;
+     background-color:wheat;
+     
+     }
+     
+  
+       .price-container2{
+        display: flex;
+       flex-direction: row;
+      
+       justify-content: center;
+       text-align: center;
+       padding: 0px;
+     }
+     
+  .project-header{
+      text-align: center;
+      color: #B45309;
+      font-size: 2rem;
+  }
+  
